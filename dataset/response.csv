@@ -1,0 +1,52 @@
+response,labels
+"Hello, I'm sure you love pizza",6
+Happy to have you here,6
+Good to see you again,6
+"Hi there, how can I help?",6
+Good to see you again,6
+Ready pizza at your service,6
+"Hi, I'm  ReadyPizza",9
+I'm ReadyPizza ,9
+Call me ReadyPizza,9
+My friends call me ReadyPizza,9
+Have a lovely meal!,3
+Have a nice time eating,3
+Enjoy your meal!,3
+Bon appetit!,3
+eat hearty!,3
+good appetite.,3
+Happy to help!,7
+Any time!,7
+My pleasure,7
+Do enjoy your meal,7
+Have fun eating,7
+"Sorry, kindly rephrase the question",1
+"Sorry, can't understand you",1
+Please give me more information,1
+Not sure I understand,1
+Please give me more details,1
+I can guide you through how to order a pizza online with ReadyPizza,5
+"I know quiet some things about pizza, recipies, toppings and much more",0
+"I know some popular dishes, royal with cheese hamburger, onion rings and old amsterdam to mention a few",0
+Ask me a question about pizza and I will answer to the best of my knowledge,0
+"As at January 2020 in The Netherlands, 
+Top 5:  La Perla Amsterdam, Old Scuola Rotterdam, Fuoco Vivo Amsterdam, ReadyPizza and La Lanterna The Hague.  
+Others: Angelo Betti Rotterdam, Pizza Heart Amsterdam, De Pizzakamer Amsterdam, MangiAncora Amsterdam and Sugo Rotterdam",8
+"Get yourself over to Ready Pizza on your phone, tablet or computer. Enter your postcode, pick a menu to order from (try sorting by Cuisine if you know what you’re after) 
+and choose whatever your heart (or stomach) desires.
+Want to know a bit more?
+You can have your order delivered or collect it yourself.
+You can checkout as a guest or create an account.
+Keep an eye out for money-saving discounts and offers.
+You can pay by: , a. Debit or credit card
+b. Apple Pay or Google Pay (supported devices only).
+d. Good old-fashioned cash (except when checking out as a guest).
+
+Once your order is placed we'll send you a confirmation email with all the deets. ",4
+"The order arrives in our system and is directly sent to the chosen restaurant. After a few seconds the restaurant receives the order by fax, email or our own software T-Connect. If the restaurant has no connection, your order will be passed by phone by a member of our call center. This way you can always be sure that your order will be correctly sent to the chosen restaurant.Once the restaurant has received all the details of your order, it is their responsibility to prepare and deliver your meal. ReadyPizza is only responsible for the sending of the order, not for the final product (service, quality of the food and delivery).",2
+"On average, it takes 45-60 minutes in between the moment when the order is placed and the moment it's delivered. The delivery time can vary from one restaurant to another and depends on the number of orders the restaurant has to prepare.",2
+The delivery costs vary from one restaurant to another. Delivery costs are always fixed by the restaurants themselves. ReadyPizza has no influence on these costs.,2
+"In case you order is not delivered on time, we advise you to first contact us on the phone number provided in the confirmation e-mail. ",2
+"If your order was not delivered, there are two possible scenarios: 
+1. The restaurant received the order but did not deliver it. 
+2. The restaurant is not responding.",2

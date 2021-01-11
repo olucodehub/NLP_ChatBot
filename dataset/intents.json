@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "start_conversation",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi", "Anyone home?", "Whats cooking", "I am hungry"],
+         "responses": ["Hello, I'm sure you love pizza", "Happy to have you here", "Good to see you again", "Hi there, how can I help?", "Good to see you again", "Ready pizza at your service"],
+         "context": [""]
+        },
+
+	{"tag": "what_are_you",
+         "patterns": ["What is your name?", "what are you?", "who are you?","your name pls?", "identify yourself"],
+         "responses": ["Hi, I'm  ReadyPizza", "I'm ReadyPizza ", "Call me ReadyPizza", "My friends call me ReadyPizza"],
+         "context": [""]
+        },
+        {"tag": "end_conversation",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Have a lovely meal!", "Have a nice time eating", "Enjoy your meal!","Bon appetit!", "eat hearty!", "good appetite."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks for your time", "That's useful", "Super"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Do enjoy your meal","Have fun eating"],
+         "context": [""]
+        },
+        {"tag": "confused",
+         "patterns": [],
+         "responses": ["Sorry, kindly rephrase the question","Sorry, can't understand you", "Please give me more information", "Not sure I understand", "Please give me more details"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What can you do?", "What help you provide?", "How can you be helpful?", "What support do you offer","What do you know?","what help?","What are you about?"],
+         "responses": ["I can guide you through how to order a pizza online with ReadyPizza"],
+         "context": [""]
+        },
+  	{"tag": "bot_scope",
+         "patterns": ["What do you know about pizza?", "tell me about pizza?", "Do you really know lots about pizzas?", "what exactly do you know about pizza","what do you mean by guides through ordering a pizza?"],
+         "responses": ["I know quiet some things about pizza, recipies, toppings and much more","I know some popular dishes, royal with cheese hamburger, onion rings and old amsterdam to mention a few","Ask me a question about pizza and I will answer to the best of my knowledge"],
+         "context": [""]
+        },
+        {"tag": "top_restaurants",
+         "patterns": ["Who are the top restaurants for pizzas?", "List the top pizza restaurants", "Top pizzas?", "Who are the best players in tennis", "The best players are?", "Do you know the top players in tennis?"],
+         "responses": ["As at January 2020 in The Netherlands, \nTop 5:  La Perla Amsterdam, Old Scuola Rotterdam, Fuoco Vivo Amsterdam, ReadyPizza and La Lanterna The Hague.  \nOthers: Angelo Betti Rotterdam, Pizza Heart Amsterdam, De Pizzakamer Amsterdam, MangiAncora Amsterdam and Sugo Rotterdam"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["How can i order a pizza?", "List the rules to order a pizza?", "How can i pay?", "Is there a minimum order amount?", "How do I order from ReadyPizza?", "Do you offer any discounts?" ],
+         "responses": ["Get yourself over to Ready Pizza on your phone, tablet or computer. Enter your postcode, pick a menu to order from (try sorting by Cuisine if you know what you’re after) \nand choose whatever your heart (or stomach) desires.\nWant to know a bit more?\nYou can have your order delivered or collect it yourself.\nYou can checkout as a guest or create an account.\nKeep an eye out for money-saving discounts and offers.\nYou can pay by: , a. Debit or credit card\nb. Apple Pay or Google Pay (supported devices only).\nd. Good old-fashioned cash (except when checking out as a guest).\n\nOnce your order is placed we'll send you a confirmation email with all the deets. "],
+         "context": [""]
+        },
+        {"tag": "delivery_details",
+         "patterns": ["What happens after I have placed my order?","How long does a delivery take?", "What are the delivery costs?", "My order was delivered too late", "I did not receive what I had ordered","My order was not delivered"],
+         "responses": ["The order arrives in our system and is directly sent to the chosen restaurant. After a few seconds the restaurant receives the order by fax, email or our own software T-Connect. If the restaurant has no connection, your order will be passed by phone by a member of our call center. This way you can always be sure that your order will be correctly sent to the chosen restaurant.Once the restaurant has received all the details of your order, it is their responsibility to prepare and deliver your meal. ReadyPizza is only responsible for the sending of the order, not for the final product (service, quality of the food and delivery).", "On average, it takes 45-60 minutes in between the moment when the order is placed and the moment it's delivered. The delivery time can vary from one restaurant to another and depends on the number of orders the restaurant has to prepare.", "The delivery costs vary from one restaurant to another. Delivery costs are always fixed by the restaurants themselves. ReadyPizza has no influence on these costs.", "In case you order is not delivered on time, we advise you to first contact us on the phone number provided in the confirmation e-mail. ", "If your order was not delivered, there are two possible scenarios: \n1. The restaurant received the order but did not deliver it. \n2. The restaurant is not responding."],
+         "context": [""]
+        }
+   ]
+}
